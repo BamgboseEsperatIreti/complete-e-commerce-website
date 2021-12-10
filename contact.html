@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact form</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <div id="nav" >
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact </a></li>
+        <li><a href="order.html">Order </a></li>
+  
+      </ul>
+</div>
+
+
+
+   <div class="contact-title">
+     <h1>Contact form</h1>
+     <h2>We are always ready to serve you!</h2>
+   </div>
+
+   <div class="contact-form">
+     <form id="contact-form" method="post" action="contact-form-handler.php">
+     <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+     <br>
+     <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+     <br>
+     <input type="text" name="identifier" class="form-control" placeholder="I.D No" pattern="[a-zA-Z0-9]+" required/>
+     <br>
+     <textarea name="message" class="form-control" placeholder="Message" row="10" required></textarea>
+     <br>
+
+     <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+     </form>
+   </div>
+
+   <footer>
+    <div class="container">
+     <ul class="flex-row">
+
+       <li><a href="index.html">Home</a></li>
+       <li><a href="gallery.html">Gallery</a></li>
+       <li><a href="contact.html">Contact </a></li>
+       <li><a href="order.html">Order </a></li>
+ 
+     </ul>
+
+     <p>Whatsapp No: 08171255810</p>
+     <p>powered by <a href="https://esperantowebservices.com/" style="color:blanchedalmond;">esperantowebservices</a></p>
+
+     <p>copyright &copy: 2021 Espefol</p>
+
+    </div>
+
+   </footer>
+  
+</body>
+</html>

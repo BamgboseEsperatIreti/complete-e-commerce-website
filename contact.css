@@ -1,0 +1,157 @@
+body{
+margin: 0;
+padding: 0;
+text-align: center;
+background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(./images/background2.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+font-family: sans-serif;
+
+
+}
+#nav ul {
+    list-style-type: none;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: .5em;
+    
+       
+  }
+#nav li a{
+    font-family: monospace;
+    text-decoration: none;
+    text-decoration: none;
+    color: snow;
+    font-size: 1.7em;
+    background-color:#B22222;
+    padding: .25em;
+    /*padding: 1.0rem;*/
+    font-weight: 700;
+    transition: all .5s ease;
+    border-radius: .25em;
+    margin-right: .25em;
+    
+}
+#nav li a:hover{
+    background: #eaeaea;
+    color:#333;
+}
+
+.contact-title{
+
+    margin-top: 100px;
+    color: #fff;
+    text-transform:uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size:32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size: 16px;
+
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing:2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+
+    backgroung-color: #f44336;
+    cursor: pointer;
+}
+
+
+footer{
+    color: #fff;
+    background-color: #FF4500;
+    }
+     footer .container {
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    ul{
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    
+    
+     }
+     footer .container .flex-row li{
+       padding: 0 15px;  
+       margin-bottom: 16px;
+    
+     }
+     footer .container .flex-row a{
+         font-size: 18px;
+         font-weight: 500;
+         color: #fff;
+         text-decoration: none;
+     }
+     p{
+         text-align: center;
+     }
+     footer p a{
+        text-decoration: none;
+    }
+
+
+
+
+@media (max-width:600px) {
+    
+     .contact-title h1{
+        font-size: 16px;
+        line-height: 5px;
+    }
+    .contact-title h2{
+        font-size: 8px;
+    
+    }
+    .form-control{
+        width: 300px;
+        background: transparent;
+        border:none;
+        outline:none;
+        border-bottom: 1px solid gray;
+        color: #fff;
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+    form .submit{
+        background: #ff5722;
+        border-color: transparent;
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing:2px;
+        height: 25px;
+        margin-top: 10px;
+    }   
+
+}
+    
